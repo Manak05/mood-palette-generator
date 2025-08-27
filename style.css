@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #9b91ad86;
+}
+
+
+h1{
+    font-weight: bold;
+}
+
+p{
+    font-weight: light;
+}
+
+.buttons{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    align-items: center;
+    margin:20px auto;
+    width: 100%;
+}
+
+button {
+  padding: 15px 30px;    
+  font-size: 1rem;    
+  border-radius: 8px;  
+  cursor: pointer;  
+}
+
+footer{
+    padding: 10px;
+    font-size:0.05 rem;
+
+}
