@@ -1,37 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>mood-palette-generator</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mood Palette Generator</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <header>
-        <h1>Mood Palette Generator</h1>
-        <p>CSS COLOR PALETTES FOR COOL COLOR COMBINATIONS AND UI ELEMENTS</p>
-    </header>
+  <header>
+    <h1>Mood Palette Generator</h1>
+    <p>Create beautiful CSS color palettes for UI elements and design inspiration.</p>
+  </header>
 
-    <main>
-        <div class="buttons">
-        <button>vibrant colors</button>
-        <button>retro colors</button>
-        <button>washed out colors</button>
-        <button>color gradients</button>
-        </div>
-        
-        <section class="palette-section">
-            <h2>Generated Palette</h2>
-        <div class="palettes">
-            <div class="palette">1</div>
-            <div class="palette">2</div>
-            <div class="palette">3</div>
-            <div class="palette">4</div>
-        </div>
-        </section>
-    </main>
+  <main>
+    <!-- Palette Type Buttons -->
+    <section class="controls">
+      <h2>Choose a Mood</h2>
+      <div class="buttons">
+        <button aria-label="Generate vibrant colors">Vibrant Colors</button>
+        <button aria-label="Generate retro colors">Retro Colors</button>
+        <button aria-label="Generate washed out colors">Washed Out Colors</button>
+        <button aria-label="Generate color gradients">Color Gradients</button>
+      </div>
+    </section>
 
-    <footer>Mood Palette Generator|Author:Manak|All Rights Reerved</footer>
-    <script src="script.js"></script>
+    <!-- Palette Display -->
+    <section class="palette-section">
+      <h2>Generated Palette</h2>
+      <div class="palettes">
+        <div class="palette"></div>
+        <div class="palette"></div>
+        <div class="palette"></div>
+        <div class="palette"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <small>© 2025 Mood Palette Generator | Author: Manak | All Rights Reserved</small>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
